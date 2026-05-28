@@ -1,0 +1,13 @@
+# Альтернативні папки компіляції .NET
+bin/
+obj/
+
+# Конфігурації та кеш VS Code / Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Логи та тимчасові файли
+*.log
+.DS_Store

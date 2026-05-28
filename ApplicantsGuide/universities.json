@@ -1,0 +1,3066 @@
+[
+  {
+    "Name": "КНУ ім. Тараса Шевченка — Київський національний університет імені Тараса Шевченка",
+    "Address": "вул. Володимирська, 60, м. Київ, 01601",
+    "Specialties": [
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 181.9,
+        "FullTimeContractScore": 162.2,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 163.6,
+        "ContractCost": 76600
+      },
+      {
+        "Name": "073 Менеджмент (Менеджмент організацій / Креативних індустрій)",
+        "FullTimeBudgetScore": 168.9,
+        "FullTimeContractScore": 147.92,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 142.09,
+        "ContractCost": 79600
+      },
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 165.49,
+        "FullTimeContractScore": 140.8,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 61300
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 160.22,
+        "FullTimeContractScore": 140.31,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 61300
+      },
+      {
+        "Name": "051 Економіка (Міжнародна економіка)",
+        "FullTimeBudgetScore": 174.2,
+        "FullTimeContractScore": 154.11,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 79600
+      },
+      {
+        "Name": "035 Філологія (Англійська філологія та переклад)",
+        "FullTimeBudgetScore": 182.36,
+        "FullTimeContractScore": 162.35,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 68300
+      },
+      {
+        "Name": "053 Психологія",
+        "FullTimeBudgetScore": 170.34,
+        "FullTimeContractScore": 145.53,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 146.97,
+        "ContractCost": 61300
+      }
+    ]
+  },
+  {
+    "Name": "НУ «Львівська політехніка» — Національний裝ніверситет «Львівська політехніка»",
+    "Address": "вул. Степана Бандери, 12, м. Львів, 79013",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 174.43,
+        "FullTimeContractScore": 156.26,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 59500
+      },
+      {
+        "Name": "191 Architecture та містобудування",
+        "FullTimeBudgetScore": 172.98,
+        "FullTimeContractScore": 155.03,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 49500
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 162.43,
+        "FullTimeContractScore": 141.9,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.18,
+        "ContractCost": 56800
+      },
+      {
+        "Name": "131 Галузеве машинобудування",
+        "FullTimeBudgetScore": 146.78,
+        "FullTimeContractScore": 119.98,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 38900
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 168.98,
+        "FullTimeContractScore": 143.84,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.74,
+        "ContractCost": 56800
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 177.55,
+        "FullTimeContractScore": 159.91,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 163.14,
+        "ContractCost": 56800
+      }
+    ]
+  },
+  {
+    "Name": "Національний технічний університет України «Київський політехнічний інститут імені Ігоря Сікорського»",
+    "Address": "просп. Берестейський, 37, м. Київ, 03056",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 168.19,
+        "FullTimeContractScore": 151.47,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 148.47,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 164.19,
+        "FullTimeContractScore": 148.47,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 146.47,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 150.19,
+        "FullTimeContractScore": 141.47,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Сумський державний університет",
+    "Address": "вул. Римського-Корсакова, 2, м. Суми, 40007",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 155.73,
+        "FullTimeContractScore": 144.5,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 162.73,
+        "FullTimeContractScore": 150.5,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 142.5,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 152.73,
+        "FullTimeContractScore": 142.5,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.5,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Львівський національний університет імені Івана Франка",
+    "Address": "вул. Університетська, 1, м. Львів, 79000",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 169.61,
+        "FullTimeContractScore": 157.4,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 176.61,
+        "FullTimeContractScore": 163.4,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 155.4,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 166.61,
+        "FullTimeContractScore": 155.4,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 153.4,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "ХНУ ім. В. Н. Каразіна — Харківський національний університет імені В. Н. Каразіна",
+    "Address": "майдан Свободи, 4, м. Харків, 61022",
+    "Specialties": [
+      {
+        "Name": "291 Міжнародні відносини",
+        "FullTimeBudgetScore": 184.08,
+        "FullTimeContractScore": 165.29,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 46700
+      },
+      {
+        "Name": "053 Психологія",
+        "FullTimeBudgetScore": 167.8,
+        "FullTimeContractScore": 148.09,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 152.5,
+        "ContractCost": 38500
+      },
+      {
+        "Name": "035 Філологія (Англійська мова та література і переклад)",
+        "FullTimeBudgetScore": 178.74,
+        "FullTimeContractScore": 158.74,
+        "PartTimeBudgetScore": 155.74,
+        "PartTimeContractScore": 158.39,
+        "ContractCost": 38500
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 162.57,
+        "FullTimeContractScore": 143.26,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 152.7,
+        "ContractCost": 38500
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 164.5,
+        "FullTimeContractScore": 151.21,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 46700
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет біоресурсів і природокористування України",
+    "Address": "вул. Героїв Оборони, 15, м. Київ, 03041",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 153.71,
+        "FullTimeContractScore": 140.12,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 160.71,
+        "FullTimeContractScore": 146.12,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.12,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 150.71,
+        "FullTimeContractScore": 138.12,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.12,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Прикарпатський національний університет імені Василя Стефаника",
+    "Address": "вул. Шевченка, 57, м. Івано-Франківськ, 76018",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 159.76,
+        "FullTimeContractScore": 145.68,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 166.76,
+        "FullTimeContractScore": 151.68,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 143.68,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 156.76,
+        "FullTimeContractScore": 143.68,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 141.68,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "НТУ «ХПІ» — Національний технічний університет «Харківський політехнічний інститут»",
+    "Address": "вул. Кирпичова, 2, м. Харків, 61002",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 163.82,
+        "FullTimeContractScore": 144.18,
+        "PartTimeBudgetScore": 176.65,
+        "PartTimeContractScore": 155.88,
+        "ContractCost": 40220
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 154.41,
+        "FullTimeContractScore": 149.78,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 154.9,
+        "ContractCost": 50270
+      },
+      {
+        "Name": "073 Менеджмент (Міжнародний бізнес / Організацій і адміністрування)",
+        "FullTimeBudgetScore": 176.23,
+        "FullTimeContractScore": 153.82,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.07,
+        "ContractCost": 50270
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 142.91,
+        "FullTimeContractScore": 0.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 21840
+      },
+      {
+        "Name": "122 Комп'ютерні науки (Моделювання, проектування та комп'ютерна графіка)",
+        "FullTimeBudgetScore": 155.67,
+        "FullTimeContractScore": 136.02,
+        "PartTimeBudgetScore": 155.54,
+        "PartTimeContractScore": 158.81,
+        "ContractCost": 40220
+      }
+    ]
+  },
+  {
+    "Name": "Одеський національний університет імені І. І. Мечникова",
+    "Address": "вул. Дворянська, 2, м. Одеса, 65082",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 163.78,
+        "FullTimeContractScore": 147.71,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 170.78,
+        "FullTimeContractScore": 153.71,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 145.71,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 160.78,
+        "FullTimeContractScore": 145.71,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 143.71,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Національний технічний університет «Дніпровська політехніка»",
+    "Address": "просп. Дмитра Яворницького, 19, м. Дніпро, 49005",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 159.5,
+        "FullTimeContractScore": 145.25,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 142.25,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 155.5,
+        "FullTimeContractScore": 142.25,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.25,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 141.5,
+        "FullTimeContractScore": 135.25,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Чернівецький національний університет імені Юрія Федьковича",
+    "Address": "вул. Коцюбинського, 2, м. Чернівці, 58012",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 160.41,
+        "FullTimeContractScore": 148.18,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 167.41,
+        "FullTimeContractScore": 154.18,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 146.18,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 157.41,
+        "FullTimeContractScore": 146.18,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 144.18,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Дніпровський національний університет імені Олеся Гончара",
+    "Address": "просп. Гагаріна, 72, м. Дніпро, 49010",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 156.76,
+        "FullTimeContractScore": 141.53,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 163.76,
+        "FullTimeContractScore": 147.53,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.53,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 153.76,
+        "FullTimeContractScore": 139.53,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.53,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет «Києво-Могилянська академія»",
+    "Address": "вул. Григорія Сковороди, 2, м. Київ, 04070",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 178.65,
+        "FullTimeContractScore": 161.81,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 185.65,
+        "FullTimeContractScore": 167.81,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 159.81,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 175.65,
+        "FullTimeContractScore": 159.81,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 157.81,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Ужгородський національний університет",
+    "Address": "пл. Народна, 3, м. Ужгород, 88000",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 158.8,
+        "FullTimeContractScore": 144.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 165.8,
+        "FullTimeContractScore": 150.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 142.13,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 155.8,
+        "FullTimeContractScore": 142.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.13,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Приватне акціонерне товариство «ВНЗ «Міжрегіональна Академія управління персоналом»",
+    "Address": "вул. Фрометівська, 2, м. Київ, 03039",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.0,
+        "FullTimeContractScore": 137.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.0,
+        "FullTimeContractScore": 143.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.0,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.0,
+        "FullTimeContractScore": 135.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.0,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Національний медичний університет імені О. О. Богомольця",
+    "Address": "бул. Тараса Шевченка, 13, м. Київ, 01601",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 168.52,
+        "FullTimeContractScore": 166.42,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 178.52,
+        "FullTimeContractScore": 168.42,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 158.52,
+        "FullTimeContractScore": 156.42,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 154.42,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет водного господарства та природокористування",
+    "Address": "вул. Соборна, 11, м. Рівне, 33028",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 155.86,
+        "FullTimeContractScore": 140.83,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 162.86,
+        "FullTimeContractScore": 146.83,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.83,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 152.86,
+        "FullTimeContractScore": 138.83,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.83,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Західноукраїнський національний університет",
+    "Address": "вул. Львівська, 11, м. Тернопіль, 46009",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 159.26,
+        "FullTimeContractScore": 143.71,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 166.26,
+        "FullTimeContractScore": 149.71,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 141.71,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 156.26,
+        "FullTimeContractScore": 141.71,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.71,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Український державний університет науки і технологій",
+    "Address": "вул. Лазаряна, 2, м. Дніпро, 49010",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 147.06,
+        "FullTimeContractScore": 136.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 154.06,
+        "FullTimeContractScore": 142.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 134.13,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 144.06,
+        "FullTimeContractScore": 134.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 132.13,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Вінницький національний технічний університет",
+    "Address": "Хмельницьке шосе, 95, м. Вінниця, 21021",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 163.43,
+        "FullTimeContractScore": 145.43,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 142.43,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 159.43,
+        "FullTimeContractScore": 142.43,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.43,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 145.43,
+        "FullTimeContractScore": 135.43,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Київський національний університет будівництва і архітектури",
+    "Address": "Повітрофлотський просп., 31, м. Київ, 03037",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 162.4,
+        "FullTimeContractScore": 144.86,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 169.4,
+        "FullTimeContractScore": 150.86,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 142.86,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 159.4,
+        "FullTimeContractScore": 142.86,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.86,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Волинський національний університет імені Лесі Українки",
+    "Address": "просп. Волі, 13, м. Луцьк, 43025",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 155.96,
+        "FullTimeContractScore": 147.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 162.96,
+        "FullTimeContractScore": 153.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 145.13,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 152.96,
+        "FullTimeContractScore": 145.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 143.13,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "ХНУРЕ — Харківський національний університет радіоелектроніки",
+    "Address": "просп. Науки, 14, м. Харків, 61166",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення (Програмна інженерія)",
+        "FullTimeBudgetScore": 163.04,
+        "FullTimeContractScore": 142.07,
+        "PartTimeBudgetScore": 160.33,
+        "PartTimeContractScore": 137.78,
+        "ContractCost": 34900
+      },
+      {
+        "Name": "122 Комп'ютерні науки (Комп`ютерні науки та технології / Штучний інтелект)",
+        "FullTimeBudgetScore": 160.3,
+        "FullTimeContractScore": 138.31,
+        "PartTimeBudgetScore": 169.3,
+        "PartTimeContractScore": 152.81,
+        "ContractCost": 34900
+      },
+      {
+        "Name": "125 Кібербезпека та захист інформації (Безпека інформаційних і комунікаційних систем)",
+        "FullTimeBudgetScore": 161.0,
+        "FullTimeContractScore": 141.94,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 153.79,
+        "ContractCost": 34900
+      },
+      {
+        "Name": "163 Біомедична інженерія",
+        "FullTimeBudgetScore": 157.18,
+        "FullTimeContractScore": 0.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 171.0,
+        "ContractCost": 24900
+      },
+      {
+        "Name": "124 Системний аналіз та наука про дані",
+        "FullTimeBudgetScore": 158.94,
+        "FullTimeContractScore": 128.4,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 24900
+      }
+    ]
+  },
+  {
+    "Name": "Національний аерокосмічний університет ім. М. Є. Жуковського «Харківський авіаційний інститут»",
+    "Address": "вул. Чкалова, 17, м. Харків, 61070",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 150.82,
+        "FullTimeContractScore": 140.74,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.74,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 146.82,
+        "FullTimeContractScore": 137.74,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.74,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 132.82,
+        "FullTimeContractScore": 130.74,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Івано-Франківський національний технічний університет нафти і газу",
+    "Address": "вул. Карпатська, 15, м. Івано-Франківськ, 76019",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 159.41,
+        "FullTimeContractScore": 142.99,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.99,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 155.41,
+        "FullTimeContractScore": 139.99,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.99,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 141.41,
+        "FullTimeContractScore": 132.99,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Тернопільський національний медичний运行іверситет імені І. Я. Горбачевського",
+    "Address": "майдан Волі, 1, м. Тернопіль, 46001",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 150.0,
+        "FullTimeContractScore": 145.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 160.0,
+        "FullTimeContractScore": 147.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 140.0,
+        "FullTimeContractScore": 135.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.0,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Київський національний економічний університет імені Вадима Гетьмана",
+    "Address": "просп. Берестейський, 54/1, м. Київ, 03057",
+    "Specialties": [
+      {
+        "Name": "051 Економіка",
+        "FullTimeBudgetScore": 164.1,
+        "FullTimeContractScore": 150.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 148.54,
+        "ContractCost": 32000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 163.1,
+        "FullTimeContractScore": 148.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 147.54,
+        "ContractCost": 33000
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 162.1,
+        "FullTimeContractScore": 149.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 31000
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет «Полтавська політехніка імені Юрія Кондратюка»",
+    "Address": "просп. Першотравневий, 24, м. Полтава, 36011",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 157.64,
+        "FullTimeContractScore": 144.09,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 141.09,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 153.64,
+        "FullTimeContractScore": 141.09,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.09,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 139.64,
+        "FullTimeContractScore": 134.09,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет харчових технологій",
+    "Address": "вул. Володимирська, 68, м. Київ, 01601",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.0,
+        "FullTimeContractScore": 139.6,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.0,
+        "FullTimeContractScore": 145.6,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.6,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.0,
+        "FullTimeContractScore": 137.6,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.6,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "ХНМУ — Харківський національний медичний університет",
+    "Address": "просп. Науки, 4, м. Харків, 61022",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 161.82,
+        "FullTimeContractScore": 159.31,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 46000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 175.87,
+        "FullTimeContractScore": 159.46,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "227 Терапія та реабілітація (Фізична терапія, ерготерапія)",
+        "FullTimeBudgetScore": 155.04,
+        "FullTimeContractScore": 148.27,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 41000
+      },
+      {
+        "Name": "053 Психологія (Клінічна психологія)",
+        "FullTimeBudgetScore": 0.0,
+        "FullTimeContractScore": 148.46,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 31000
+      },
+      {
+        "Name": "223 Медсестринство (Сестринська справа)",
+        "FullTimeBudgetScore": 147.7,
+        "FullTimeContractScore": 139.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 148.1,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Київський столичний університет імені Бориса Грінченка",
+    "Address": "вул. Бульварно-Кудрявська, 18/2, м. Київ, 04053",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 163.44,
+        "FullTimeContractScore": 147.35,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 170.44,
+        "FullTimeContractScore": 153.35,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 145.35,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 160.44,
+        "FullTimeContractScore": 145.35,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 143.35,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Державний університет «Житомирська політехніка»",
+    "Address": "вул. Чуднівська, 103, м. Житомир, 10005",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 159.38,
+        "FullTimeContractScore": 140.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.0,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 155.38,
+        "FullTimeContractScore": 137.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.0,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 141.38,
+        "FullTimeContractScore": 130.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет «Одеська політехніка»",
+    "Address": "просп. Шевченка, 1, м. Одеса, 65044",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 159.38,
+        "FullTimeContractScore": 152.64,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 149.64,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 155.38,
+        "FullTimeContractScore": 149.64,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 147.64,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 141.38,
+        "FullTimeContractScore": 142.64,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Київський національний університет технологій та дизайну",
+    "Address": "вул. Мала Шияновська, 2, м. Київ, 01011",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 155.64,
+        "FullTimeContractScore": 142.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 162.64,
+        "FullTimeContractScore": 148.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.54,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 152.64,
+        "FullTimeContractScore": 140.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.54,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Тернопільський національний технічний університет імені Івана Пулюя",
+    "Address": "вул. Руська, 56, м. Тернопіль, 46001",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 160.69,
+        "FullTimeContractScore": 143.64,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.64,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 156.69,
+        "FullTimeContractScore": 140.64,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.64,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 142.69,
+        "FullTimeContractScore": 133.64,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Державний торговельно-економічний університет",
+    "Address": "вул. Кіото, 19, м. Київ, 02156",
+    "Specialties": [
+      {
+        "Name": "051 Економіка",
+        "FullTimeBudgetScore": 160.07,
+        "FullTimeContractScore": 145.75,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 143.75,
+        "ContractCost": 32000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 159.07,
+        "FullTimeContractScore": 143.75,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 142.75,
+        "ContractCost": 33000
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 158.07,
+        "FullTimeContractScore": 144.75,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 31000
+      }
+    ]
+  },
+  {
+    "Name": "Харківський національний університет міського господарства імені О. М. Бекетова",
+    "Address": "вул. Маршала Бажанова, 17, м. Харків, 61002",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 149.08,
+        "FullTimeContractScore": 138.79,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 156.08,
+        "FullTimeContractScore": 144.79,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.79,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 146.08,
+        "FullTimeContractScore": 136.79,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 134.79,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Кременчуцький національний університет імені Михайла Остроградського",
+    "Address": "вул. Першотравнева, 20, м. Кременчук, 39600",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 151.3,
+        "FullTimeContractScore": 137.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 158.3,
+        "FullTimeContractScore": 143.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.54,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 148.3,
+        "FullTimeContractScore": 135.54,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.54,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Сумський національний аграрний університет",
+    "Address": "вул. Героїв Сумщини, 160, м. Суми, 40021",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 144.56,
+        "FullTimeContractScore": 137.67,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 151.56,
+        "FullTimeContractScore": 143.67,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.67,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 141.56,
+        "FullTimeContractScore": 135.67,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.67,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Вінницький національний медичний університет ім. М. І. Пирогова",
+    "Address": "вул. Пирогова, 56, м. Вінниця, 21018",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 168.82,
+        "FullTimeContractScore": 161.08,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 178.82,
+        "FullTimeContractScore": 163.08,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 158.82,
+        "FullTimeContractScore": 151.08,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 149.08,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Тернопільський національний педагогічний університет імені Володимира Гнатюка",
+    "Address": "вул. Максима Кривоноса, 2, м. Тернопіль, 46027",
+    "Specialties": [
+      {
+        "Name": "035 Філологія",
+        "FullTimeBudgetScore": 151.07,
+        "FullTimeContractScore": 141.97,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.97,
+        "ContractCost": 26000
+      },
+      {
+        "Name": "053 Психологія",
+        "FullTimeBudgetScore": 153.07,
+        "FullTimeContractScore": 142.97,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.97,
+        "ContractCost": 27000
+      }
+    ]
+  },
+  {
+    "Name": "Запорізький національний університет",
+    "Address": "вул. Жуковського, 66, м. Запоріжжя, 69600",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 151.66,
+        "FullTimeContractScore": 140.77,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 158.66,
+        "FullTimeContractScore": 146.77,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.77,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 148.66,
+        "FullTimeContractScore": 138.77,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.77,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Харківський національний автомобільно-дорожній університет",
+    "Address": "вул. Ярослава Мудрого, 25, м. Харків, 61002",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 146.11,
+        "FullTimeContractScore": 138.88,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.88,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 142.11,
+        "FullTimeContractScore": 135.88,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.88,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 128.11,
+        "FullTimeContractScore": 128.88,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Буковинський державний медичний університет",
+    "Address": "Театральна пл., 2, м. Чернівці, 58002",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 165.17,
+        "FullTimeContractScore": 159.3,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 175.17,
+        "FullTimeContractScore": 161.3,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 155.17,
+        "FullTimeContractScore": 149.3,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 147.3,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Львівський національний медичний університет імені Данила Галицького",
+    "Address": "вул. Пекарська, 69, м. Львів, 79010",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 172.17,
+        "FullTimeContractScore": 170.84,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 182.17,
+        "FullTimeContractScore": 172.84,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 162.17,
+        "FullTimeContractScore": 160.84,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 158.84,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Черкаський національний університет імені Богдана Хмельницького",
+    "Address": "бул. Шевченка, 81, м. Черкаси, 18031",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 154.44,
+        "FullTimeContractScore": 142.99,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 161.44,
+        "FullTimeContractScore": 148.99,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.99,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 151.44,
+        "FullTimeContractScore": 140.99,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.99,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет кораблебудування імені адмірала Макарова",
+    "Address": "просп. Героїв України, 9, м. Миколаїв, 54025",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 146.85,
+        "FullTimeContractScore": 137.9,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 153.85,
+        "FullTimeContractScore": 143.9,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.9,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 143.85,
+        "FullTimeContractScore": 135.9,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.9,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Хмельницький національний університет",
+    "Address": "вул. Інститутська, 11, м. Хмельницький, 29016",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 151.89,
+        "FullTimeContractScore": 140.95,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 158.89,
+        "FullTimeContractScore": 146.95,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.95,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 148.89,
+        "FullTimeContractScore": 138.95,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.95,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Дніпровський державний медичний університет",
+    "Address": "вул. Володимира Вернадського, 9, м. Дніпро, 49044",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 158.44,
+        "FullTimeContractScore": 155.84,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 168.44,
+        "FullTimeContractScore": 157.84,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 148.44,
+        "FullTimeContractScore": 145.84,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 143.84,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Полтавський державний медичний університет",
+    "Address": "вул. Шевченка, 23, м. Полтава, 36011",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 158.36,
+        "FullTimeContractScore": 158.16,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 168.36,
+        "FullTimeContractScore": 160.16,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 148.36,
+        "FullTimeContractScore": 148.16,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 146.16,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Український державний університет залізничного транспорту",
+    "Address": "майдан Фейєрбаха, 7, м. Харків, 61050",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 147.52,
+        "FullTimeContractScore": 140.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.0,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 143.52,
+        "FullTimeContractScore": 137.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.0,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 129.52,
+        "FullTimeContractScore": 130.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет цивільного захисту України",
+    "Address": "вул. Чернишевська, 94, м. Харків, 61023",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.0,
+        "FullTimeContractScore": 140.41,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.0,
+        "FullTimeContractScore": 146.41,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.41,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.0,
+        "FullTimeContractScore": 138.41,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.41,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет «Запорізька політехніка»",
+    "Address": "вул. Жуковського, 64, м. Запоріжжя, 69063",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 151.19,
+        "FullTimeContractScore": 152.64,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 149.64,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 147.19,
+        "FullTimeContractScore": 149.64,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 147.64,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 133.19,
+        "FullTimeContractScore": 142.64,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Східноукраїнський національний університет імені Володимира Даля",
+    "Address": "вул. Центральна, 59, м. Луцьк (тимч. переміщений), 43000",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 149.51,
+        "FullTimeContractScore": 139.58,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 156.51,
+        "FullTimeContractScore": 145.58,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.58,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 146.51,
+        "FullTimeContractScore": 137.58,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.58,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Криворізький національний університет",
+    "Address": "вул. Віталія Матусевича, 11, м. Кривий Ріг, 50027",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.34,
+        "FullTimeContractScore": 138.8,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.34,
+        "FullTimeContractScore": 144.8,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.8,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.34,
+        "FullTimeContractScore": 136.8,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 134.8,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Харківський національний економічний університет імені Семена Кузнеця",
+    "Address": "просп. Науки, 9а, м. Харків, 61166",
+    "Specialties": [
+      {
+        "Name": "051 Економіка",
+        "FullTimeBudgetScore": 156.84,
+        "FullTimeContractScore": 143.47,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 141.47,
+        "ContractCost": 32000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 155.84,
+        "FullTimeContractScore": 141.47,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.47,
+        "ContractCost": 33000
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 154.84,
+        "FullTimeContractScore": 142.47,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 31000
+      }
+    ]
+  },
+  {
+    "Name": "Донецький національний університет імені Василя Стуса",
+    "Address": "вул. 600-річчя, 21, м. Вінниця (переміщений), 21021",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 161.87,
+        "FullTimeContractScore": 150.63,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 168.87,
+        "FullTimeContractScore": 156.63,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 148.63,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 158.87,
+        "FullTimeContractScore": 148.63,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 146.63,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Дрогобицький державний педагогічний університет імені Івана Франка",
+    "Address": "вул. Івана Франка, 24, м. Дрогобич, 82100",
+    "Specialties": [
+      {
+        "Name": "035 Філологія",
+        "FullTimeBudgetScore": 148.23,
+        "FullTimeContractScore": 140.07,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.07,
+        "ContractCost": 26000
+      },
+      {
+        "Name": "053 Психологія",
+        "FullTimeBudgetScore": 150.23,
+        "FullTimeContractScore": 141.07,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.07,
+        "ContractCost": 27000
+      }
+    ]
+  },
+  {
+    "Name": "Державний біотехнологічний університет",
+    "Address": "просп. Героїв Харкова, 45, м. Харків, 61005",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 143.42,
+        "FullTimeContractScore": 138.85,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 150.42,
+        "FullTimeContractScore": 144.85,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.85,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 140.42,
+        "FullTimeContractScore": 136.85,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 134.85,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Національний лісотехнічний університет України",
+    "Address": "вул. Генерала Чупринки, 103, м. Львів, 79057",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 157.14,
+        "FullTimeContractScore": 143.57,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.57,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 153.14,
+        "FullTimeContractScore": 140.57,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.57,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 139.14,
+        "FullTimeContractScore": 133.57,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Одеський національний технологічний університет",
+    "Address": "вул. Канатна, 112, м. Одеса, 65039",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 147.06,
+        "FullTimeContractScore": 144.17,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 154.06,
+        "FullTimeContractScore": 150.17,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 142.17,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 144.06,
+        "FullTimeContractScore": 142.17,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.17,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Державний університет інфраструктури та технологій",
+    "Address": "вул. Кирилівська, 9, м. Київ, 04071",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 151.3,
+        "FullTimeContractScore": 136.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 158.3,
+        "FullTimeContractScore": 142.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 134.13,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 148.3,
+        "FullTimeContractScore": 134.13,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 132.13,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Запорізький державний медико-фармацевтичний університет",
+    "Address": "просп. Маяковського, 26, м. Запоріжжя, 69035",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 158.36,
+        "FullTimeContractScore": 155.4,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 168.36,
+        "FullTimeContractScore": 157.4,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 148.36,
+        "FullTimeContractScore": 145.4,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 143.4,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Таврійський державний агротехнологічний університет імені Дмитра Моторного",
+    "Address": "просп. Богдана Хмельницького, 18, м. Запоріжжя (тимч. переміщений), 69000",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 147.63,
+        "FullTimeContractScore": 137.48,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 154.63,
+        "FullTimeContractScore": 143.48,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.48,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 144.63,
+        "FullTimeContractScore": 135.48,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.48,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Національний юридичний університет імені Ярослава Мудрого",
+    "Address": "вул. Пушкінська, 77, м. Харків, 61024",
+    "Specialties": [
+      {
+        "Name": "081 Право (Факультет адвокатури)",
+        "FullTimeBudgetScore": 177.38,
+        "FullTimeContractScore": 161.92,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 161.17,
+        "ContractCost": 55410
+      },
+      {
+        "Name": "293 Міжнародне право",
+        "FullTimeBudgetScore": 181.77,
+        "FullTimeContractScore": 161.72,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 166.38,
+        "ContractCost": 55410
+      },
+      {
+        "Name": "251 Правоохоронна діяльність",
+        "FullTimeBudgetScore": 0.0,
+        "FullTimeContractScore": 151.6,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 55410
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет охорони здоров’я України імені П. Л. Шупика",
+    "Address": "вул. Дорогожицька, 9, м. Київ, 04112",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.0,
+        "FullTimeContractScore": 137.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.0,
+        "FullTimeContractScore": 143.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.0,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.0,
+        "FullTimeContractScore": 135.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.0,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Херсонський державний університет",
+    "Address": "вул. Університетська, 27, м. Івано-Франківськ (тимч. переміщений), 76000",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.77,
+        "FullTimeContractScore": 137.2,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.77,
+        "FullTimeContractScore": 143.2,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.2,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.77,
+        "FullTimeContractScore": 135.2,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.2,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Івано-Франківський національний медичний університет",
+    "Address": "вул. Галицька, 2, м. Івано-Франківськ, 76018",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 164.52,
+        "FullTimeContractScore": 161.15,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 174.52,
+        "FullTimeContractScore": 163.15,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 154.52,
+        "FullTimeContractScore": 151.15,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 149.15,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Донецький державний медичний університет",
+    "Address": "просп. Маяковського, 35, м. Кропивницький (переміщений), 25006",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 165.17,
+        "FullTimeContractScore": 159.3,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 175.17,
+        "FullTimeContractScore": 161.3,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 155.17,
+        "FullTimeContractScore": 149.3,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 147.3,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Харківський національний педагогічний університет імені Г. С. Сковороди",
+    "Address": "вул. Алчевських, 29, м. Харків, 61002",
+    "Specialties": [
+      {
+        "Name": "035 Філологія",
+        "FullTimeBudgetScore": 145.48,
+        "FullTimeContractScore": 140.83,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.83,
+        "ContractCost": 26000
+      },
+      {
+        "Name": "053 Психологія",
+        "FullTimeBudgetScore": 147.48,
+        "FullTimeContractScore": 141.83,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.83,
+        "ContractCost": 27000
+      }
+    ]
+  },
+  {
+    "Name": "Національний фармацевтичний університет",
+    "Address": "вул. Пушкінська, 53, м. Харків, 61002",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 153.94,
+        "FullTimeContractScore": 148.17,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 163.94,
+        "FullTimeContractScore": 150.17,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 143.94,
+        "FullTimeContractScore": 138.17,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.17,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Національний університет «Чернігівська політехніка»",
+    "Address": "вул. Шевченка, 95, м. Чернігів, 14035",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 157.11,
+        "FullTimeContractScore": 144.87,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 141.87,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 153.11,
+        "FullTimeContractScore": 141.87,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.87,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 139.11,
+        "FullTimeContractScore": 134.87,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Житомирський державний університет імені Івана Франка",
+    "Address": "вул. Велика Бердичівська, 40, м. Житомир, 10008",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.02,
+        "FullTimeContractScore": 140.33,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.02,
+        "FullTimeContractScore": 146.33,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.33,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.02,
+        "FullTimeContractScore": 138.33,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.33,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Таврійський національний університет імені В. І. Вернадського",
+    "Address": "вул. Івана Мазепи, 10, м. Київ (переміщений), 01010",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 151.44,
+        "FullTimeContractScore": 143.41,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 158.44,
+        "FullTimeContractScore": 149.41,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 141.41,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 148.44,
+        "FullTimeContractScore": 141.41,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.41,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Національний транспортний університет",
+    "Address": "вул. Михайла Омеляновича-Павленка, 1, м. Київ, 01010",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 144.56,
+        "FullTimeContractScore": 139.52,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 151.56,
+        "FullTimeContractScore": 145.52,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.52,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 141.56,
+        "FullTimeContractScore": 137.52,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.52,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Одеський національний медичний університет",
+    "Address": "Валіховський пров., 2, м. Одеса, 65082",
+    "Specialties": [
+      {
+        "Name": "222 Медицина",
+        "FullTimeBudgetScore": 159.03,
+        "FullTimeContractScore": 155.56,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 45000
+      },
+      {
+        "Name": "221 Стоматологія",
+        "FullTimeBudgetScore": 169.03,
+        "FullTimeContractScore": 157.56,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 50000
+      },
+      {
+        "Name": "223 Медсестринство",
+        "FullTimeBudgetScore": 149.03,
+        "FullTimeContractScore": 145.56,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 143.56,
+        "ContractCost": 28000
+      }
+    ]
+  },
+  {
+    "Name": "Чорноморський національний університет імені Петра Могили",
+    "Address": "вул. 68 Десантників, 10, м. Миколаїв, 54003",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 153.71,
+        "FullTimeContractScore": 141.42,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 160.71,
+        "FullTimeContractScore": 147.42,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.42,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 150.71,
+        "FullTimeContractScore": 139.42,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.42,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Бердянський державний педагогічний університет",
+    "Address": "вул. Жуковського, 66, м. Запоріжжя (тимч. переміщений), 69600",
+    "Specialties": [
+      {
+        "Name": "035 Філологія",
+        "FullTimeBudgetScore": 144.31,
+        "FullTimeContractScore": 137.81,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.81,
+        "ContractCost": 26000
+      },
+      {
+        "Name": "053 Психологія",
+        "FullTimeBudgetScore": 146.31,
+        "FullTimeContractScore": 138.81,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.81,
+        "ContractCost": 27000
+      }
+    ]
+  },
+  {
+    "Name": "Донецький національний технічний університет",
+    "Address": "вул. Сергія Колачевського, 16, м. Луцьк (тимч. переміщений), 43000",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 157.22,
+        "FullTimeContractScore": 143.35,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.35,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 153.22,
+        "FullTimeContractScore": 140.35,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.35,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 139.22,
+        "FullTimeContractScore": 133.35,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Луцький національний технічний університет",
+    "Address": "вул. Львівська, 75, м. Луцьк, 43018",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 159.37,
+        "FullTimeContractScore": 143.68,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.68,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 155.37,
+        "FullTimeContractScore": 140.68,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.68,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 141.37,
+        "FullTimeContractScore": 133.68,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Криворізький державний педагогічний університет",
+    "Address": "просп. Гагаріна, 54, м. Кривий Ріг, 50086",
+    "Specialties": [
+      {
+        "Name": "035 Філологія",
+        "FullTimeBudgetScore": 143.02,
+        "FullTimeContractScore": 137.81,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.81,
+        "ContractCost": 26000
+      },
+      {
+        "Name": "053 Психологія",
+        "FullTimeBudgetScore": 145.02,
+        "FullTimeContractScore": 138.81,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.81,
+        "ContractCost": 27000
+      }
+    ]
+  },
+  {
+    "Name": "Мелітопольський державний педагогічний університет імені Богдана Хмельницького",
+    "Address": "вул. Наукового містечка, 59, м. Запоріжжя (тимч. переміщений), 69000",
+    "Specialties": [
+      {
+        "Name": "035 Філологія",
+        "FullTimeBudgetScore": 144.03,
+        "FullTimeContractScore": 142.99,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.99,
+        "ContractCost": 26000
+      },
+      {
+        "Name": "053 Психологія",
+        "FullTimeBudgetScore": 146.03,
+        "FullTimeContractScore": 143.99,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 141.99,
+        "ContractCost": 27000
+      }
+    ]
+  },
+  {
+    "Name": "Дніпровський державний аграрно-економічний університет",
+    "Address": "вул. Сергія Єфремова, 25, м. Дніпро, 49107",
+    "Specialties": [
+      {
+        "Name": "051 Економіка",
+        "FullTimeBudgetScore": 143.53,
+        "FullTimeContractScore": 135.27,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.27,
+        "ContractCost": 32000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 142.53,
+        "FullTimeContractScore": 133.27,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 132.27,
+        "ContractCost": 33000
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 141.53,
+        "FullTimeContractScore": 134.27,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 31000
+      }
+    ]
+  },
+  {
+    "Name": "Поліський національний університет",
+    "Address": "Старий бульвар, 7, м. Житомир, 10008",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 149.02,
+        "FullTimeContractScore": 138.45,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 156.02,
+        "FullTimeContractScore": 144.45,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.45,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 146.02,
+        "FullTimeContractScore": 136.45,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 134.45,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Черкаський державний технологічний університет",
+    "Address": "бул. Шевченка, 460, м. Черкаси, 18006",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 152.15,
+        "FullTimeContractScore": 138.85,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 159.15,
+        "FullTimeContractScore": 144.85,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.85,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 149.15,
+        "FullTimeContractScore": 136.85,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 134.85,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Приазовський державний технічний університет",
+    "Address": "вул. Дніпровські Зорі, 47, м. Дніпро (тимч. переміщений), 49000",
+    "Specialties": [
+      {
+        "Name": "121 Інженерія програмного забезпечення",
+        "FullTimeBudgetScore": 155.15,
+        "FullTimeContractScore": 142.14,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.14,
+        "ContractCost": 38000
+      },
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 151.15,
+        "FullTimeContractScore": 139.14,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.14,
+        "ContractCost": 35000
+      },
+      {
+        "Name": "131 Прикладна механіка",
+        "FullTimeBudgetScore": 137.15,
+        "FullTimeContractScore": 132.14,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 22000
+      }
+    ]
+  },
+  {
+    "Name": "Одеський національний морський університет",
+    "Address": "вул. Мечникова, 34, м. Одеса, 65029",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 160.79,
+        "FullTimeContractScore": 142.82,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 167.79,
+        "FullTimeContractScore": 148.82,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.82,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 157.79,
+        "FullTimeContractScore": 140.82,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.82,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Донбаська державна машинобудівна академія",
+    "Address": "вул. Академічна, 72, м. Тернопіль (тимч. переміщений), 46000",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 149.15,
+        "FullTimeContractScore": 141.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 156.15,
+        "FullTimeContractScore": 147.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.0,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 146.15,
+        "FullTimeContractScore": 139.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 137.0,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Львівський торговельно-економічний університет",
+    "Address": "вул. Туган-Барановського, 10, м. Львів, 79005",
+    "Specialties": [
+      {
+        "Name": "051 Економіка",
+        "FullTimeBudgetScore": 160.07,
+        "FullTimeContractScore": 143.96,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 141.96,
+        "ContractCost": 32000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 159.07,
+        "FullTimeContractScore": 141.96,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.96,
+        "ContractCost": 33000
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 158.07,
+        "FullTimeContractScore": 142.96,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 31000
+      }
+    ]
+  },
+  {
+    "Name": "Заклад вищої освіти «Університет «Київська школа економіки»",
+    "Address": "вул. Миколи Шпака, 3, м. Київ, 03113",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 191.84,
+        "FullTimeContractScore": 171.5,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 198.84,
+        "FullTimeContractScore": 177.5,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 169.5,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 188.84,
+        "FullTimeContractScore": 169.5,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 167.5,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Львівський національний університет природокористування",
+    "Address": "вул. Володимира Великого, 1, м. Дубляни, Львівська обл., 80381",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.0,
+        "FullTimeContractScore": 137.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.0,
+        "FullTimeContractScore": 143.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.0,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.0,
+        "FullTimeContractScore": 135.0,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.0,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Одеський національний економічний університет",
+    "Address": "вул. Преображенська, 8, м. Одеса, 65082",
+    "Specialties": [
+      {
+        "Name": "051 Економіка",
+        "FullTimeBudgetScore": 164.65,
+        "FullTimeContractScore": 144.17,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 142.17,
+        "ContractCost": 32000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 163.65,
+        "FullTimeContractScore": 142.17,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 141.17,
+        "ContractCost": 33000
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 162.65,
+        "FullTimeContractScore": 143.17,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 31000
+      }
+    ]
+  },
+  {
+    "Name": "Полтавський державний аграрний університет",
+    "Address": "вул. Сковороди, 1/3, м. Полтава, 36003",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 147.64,
+        "FullTimeContractScore": 137.98,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 154.64,
+        "FullTimeContractScore": 143.98,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 135.98,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 144.64,
+        "FullTimeContractScore": 135.98,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 133.98,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Харківський національний університет Повітряних Сил імені Івана Кожедуба",
+    "Address": "вул. Сумська, 77/79, м. Харків, 61023",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.0,
+        "FullTimeContractScore": 138.67,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.0,
+        "FullTimeContractScore": 144.67,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.67,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.0,
+        "FullTimeContractScore": 136.67,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 134.67,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Міжнародний гуманітарний університет",
+    "Address": "Фонтанська дорога, 33, м. Одеса, 65009",
+    "Specialties": [
+      {
+        "Name": "035 Філологія",
+        "FullTimeBudgetScore": 146.95,
+        "FullTimeContractScore": 140.16,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.16,
+        "ContractCost": 26000
+      },
+      {
+        "Name": "053 Психологія",
+        "FullTimeBudgetScore": 148.95,
+        "FullTimeContractScore": 141.16,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.16,
+        "ContractCost": 27000
+      }
+    ]
+  },
+  {
+    "Name": "Державний податковий університет",
+    "Address": "вул. Університетська, 31, м. Ірпінь, Київська обл., 08201",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 143.42,
+        "FullTimeContractScore": 140.42,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 150.42,
+        "FullTimeContractScore": 146.42,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 138.42,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 140.42,
+        "FullTimeContractScore": 138.42,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.42,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Університет митної справи та фінансів",
+    "Address": "вул. Володимира Вернадського, 2/4, м. Дніпро, 49000",
+    "Specialties": [
+      {
+        "Name": "051 Економіка",
+        "FullTimeBudgetScore": 156.53,
+        "FullTimeContractScore": 142.16,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 140.16,
+        "ContractCost": 32000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 155.53,
+        "FullTimeContractScore": 140.16,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 139.16,
+        "ContractCost": 33000
+      },
+      {
+        "Name": "075 Маркетинг",
+        "FullTimeBudgetScore": 154.53,
+        "FullTimeContractScore": 141.16,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 31000
+      }
+    ]
+  },
+  {
+    "Name": "Заклад вищої освіти «Український Католицький Університет»",
+    "Address": "вул. Іларіона Свєнціцького, 17, м. Львів, 79011",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 150.0,
+        "FullTimeContractScore": 175.36,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 157.0,
+        "FullTimeContractScore": 181.36,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 173.36,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 147.0,
+        "FullTimeContractScore": 173.36,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 171.36,
+        "ContractCost": 34000
+      }
+    ]
+  },
+  {
+    "Name": "Луганський національний університет імені Тараса Шевченка",
+    "Address": "площа Гоголя, 1, м. Полтава (тимч. переміщений), 36000",
+    "Specialties": [
+      {
+        "Name": "122 Комп'ютерні науки",
+        "FullTimeBudgetScore": 147.68,
+        "FullTimeContractScore": 138.92,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 0.0,
+        "ContractCost": 36000
+      },
+      {
+        "Name": "081 Право",
+        "FullTimeBudgetScore": 154.68,
+        "FullTimeContractScore": 144.92,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 136.92,
+        "ContractCost": 42000
+      },
+      {
+        "Name": "073 Менеджмент",
+        "FullTimeBudgetScore": 144.68,
+        "FullTimeContractScore": 136.92,
+        "PartTimeBudgetScore": 0.0,
+        "PartTimeContractScore": 134.92,
+        "ContractCost": 34000
+      }
+    ]
+  }
+]
