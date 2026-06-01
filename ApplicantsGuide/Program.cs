@@ -4,8 +4,15 @@ using ApplicantsGuide.Forms;
 
 namespace ApplicantsGuide
 {
+
+    /// <summary>
+    /// Головний клас програми, що забезпечує точку входу в додаток.
+    /// </summary>
     internal static class Program
     {
+        /// <summary>
+        /// Головна точка входу для додатка «Довідник абітурієнта».
+        /// </summary>
         [STAThread]
         static void Main()
         {
@@ -13,7 +20,7 @@ namespace ApplicantsGuide
             Application.SetCompatibleTextRenderingDefault(false);
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
 
-            
+            // Перехоплення необроблених помилок в UI-потоці для забезпечення стійкості програми
             Application.ThreadException += (sender, e) =>
             {
                 MessageBox.Show(
@@ -23,6 +30,7 @@ namespace ApplicantsGuide
                     MessageBoxIcon.Error);
             };
 
+            // Глобальне перехоплення критичних винятків на рівні всього домену програми
             AppDomain.CurrentDomain.UnhandledException += (sender, e) =>
             {
                 MessageBox.Show(

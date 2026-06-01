@@ -9,6 +9,11 @@ using ApplicantsGuide.Services;
 
 namespace ApplicantsGuide.Forms
 {
+
+    /// <summary>
+    /// Головна форма інформаційно-довідкової системи «Довідник бакалавра».
+    /// Забезпечує користувацький інтерфейс для аналітичного пошуку та редагування спеціальностей ЗВО.
+    /// </summary>
     public partial class Form1 : Form
     {
         private readonly DatabaseManager _db;
@@ -42,6 +47,9 @@ namespace ApplicantsGuide.Forms
         private ToolStripMenuItem _menuAdminLogin = null!;
         private bool _suppressListBoxEvent = false;
 
+        /// <summary>
+        /// Ініціалізує новий екземпляр класу <see cref="Form1"/>, налаштовує компоненти інтерфейсу та завантажує базу даних.
+        /// </summary>
         public Form1()
         {
             InitFormParameters();
@@ -54,9 +62,12 @@ namespace ApplicantsGuide.Forms
             PopulateCityFilter();
             PopulateUniversityList(_allUniversities);
 
-            SetStatus($"Завантажено {_allUniversities.Count} закладів вищої освіти. Режим: абітурієнт. Статистика актуальна на 2025 рік.");
+            SetStatus($"Завантажено {_allUniversities.Count} ЗВО. Статистика актуальна на 2025 рік.");
         }
 
+        /// <summary>
+        /// Встановлює початкові візуальні параметри, розміри та стилі головного вікна програми.
+        /// </summary>
         private void InitFormParameters()
         {
             Text          = "Довідник бакалавра — Інформаційно-довідкова система ЗВО України";
@@ -68,6 +79,9 @@ namespace ApplicantsGuide.Forms
             BackColor     = Color.FromArgb(245, 247, 250);
         }
 
+        /// <summary>
+        /// Послідовно конструює всі основні контейнери та панелі графічного інтерфейсу додатка.
+        /// </summary>
         private void BuildUI()
        {
             BuildMenuStrip();
@@ -75,6 +89,9 @@ namespace ApplicantsGuide.Forms
             BuildMainLayout();
         }
  
+        /// <summary>
+        /// Створює та налаштовує головне меню програми (MenuStrip).
+        /// </summary>
         private void BuildMenuStrip()
         {
             var menuStrip = new MenuStrip
@@ -106,6 +123,9 @@ namespace ApplicantsGuide.Forms
             MainMenuStrip = menuStrip;
         }
  
+        /// <summary>
+        /// Ініціалізує та додає нижню панель стану програми (StatusStrip).
+        /// </summary>
         private void BuildStatusStrip()
         {
             _statusStrip = new StatusStrip { BackColor = Color.FromArgb(30, 90, 160) };
@@ -118,6 +138,9 @@ namespace ApplicantsGuide.Forms
             Controls.Add(_statusStrip);
         }
  
+        /// <summary>
+        /// Створює розділювальний контейнер (SplitContainer) та ініціалізує бічні робочі панелі додатка.
+        /// </summary>
         private void BuildMainLayout()
         {
             var splitMain = new SplitContainer
@@ -134,6 +157,9 @@ namespace ApplicantsGuide.Forms
             BuildRightPanel(splitMain.Panel2);
         }
  
+        /// <summary>
+        /// Конструює ліву панель, що містить заголовок, адаптивний фільтр міст та список університетів.
+        /// </summary>
         private void BuildLeftPanel(SplitterPanel panel)
         {
             panel.BackColor = Color.FromArgb(240, 244, 250);
@@ -208,6 +234,9 @@ namespace ApplicantsGuide.Forms
             panel.Controls.Add(lblTitle);
         }
  
+        /// <summary>
+        /// Конструює праву панель, яка поєднує блок аналітичного пошуку, таблицю виведення результатів та панель адміністрування.
+        /// </summary>
         private void BuildRightPanel(SplitterPanel panel)
         {
             panel.BackColor = Color.FromArgb(245, 247, 250);
@@ -280,6 +309,9 @@ namespace ApplicantsGuide.Forms
             BuildAdminPanel(layout);
         }
  
+        /// <summary>
+        /// Створює елементи керування вибору критеріїв аналітичного пошуку всередині компонента GroupBox.
+        /// </summary>
         private void BuildSearchPanel(GroupBox groupBox)
         {
             var tbl = new TableLayoutPanel
@@ -367,6 +399,9 @@ namespace ApplicantsGuide.Forms
             groupBox.Controls.Add(tbl);
         }
  
+        /// <summary>
+        /// Конструює нижню панель адміністрування (CRUD-операції представника університету).
+        /// </summary>
         private void BuildAdminPanel(TableLayoutPanel parentLayout)
         {
             _adminPanel = new Panel
@@ -422,7 +457,9 @@ namespace ApplicantsGuide.Forms
             parentLayout.Controls.Add(_adminPanel, 0, 2);
         }
  
-       
+       /// <summary>
+        /// Ініціалізує та створює структуру колонок таблиці відображення спеціальностей DataGridView.
+        /// </summary>
         private void InitializeGridColumns()
         {
             _gridSpecialties.Columns.Clear();
@@ -439,6 +476,9 @@ namespace ApplicantsGuide.Forms
             AddColumn("ColPlaces",   "Місць",              1, align: DataGridViewContentAlignment.MiddleCenter);
         }
  
+        /// <summary>
+        /// Додає одну кастомізовану колонку заданого типу до таблиці DataGridView.
+        /// </summary>
         private void AddColumn(
             string name, string header, int fillWeight,
             bool hidden = false,
@@ -456,10 +496,15 @@ namespace ApplicantsGuide.Forms
         }
  
        
- 
+        /// <summary>
+        /// Обробляє подію визначення висоти елементів списку університетів для реалізації стилю OwnerDraw.
+        /// </summary>
         private void ListBox_MeasureItem(object? sender, MeasureItemEventArgs e) =>
             e.ItemHeight = 36;
  
+        /// <summary>
+        /// Виконує кастомне графічне відтворення (рендеринг) елементів списку університетів з акцентною смугою виділення.
+        /// </summary>
         private void ListBox_DrawItem(object? sender, DrawItemEventArgs e)
         {
             if (e.Index < 0 || e.Index >= _listBoxUniversities.Items.Count) return;
@@ -490,7 +535,9 @@ namespace ApplicantsGuide.Forms
         }
  
        
- 
+        /// <summary>
+        /// Отримує унікальний перелік міст із адрес ЗВО та заповнює комбобокс фільтрації.
+        /// </summary>
         private void PopulateCityFilter()
         {
             var cities = _allUniversities
@@ -506,6 +553,9 @@ namespace ApplicantsGuide.Forms
             _suppressListBoxEvent = false;
         }
  
+        /// <summary>
+        /// Повертає відфільтрований за містом список університетів.
+        /// </summary>
         private List<University> GetFilteredUniversities()
         {
             string city = _cboCityFilter.SelectedItem?.ToString() ?? "Усі міста";
@@ -516,13 +566,19 @@ namespace ApplicantsGuide.Forms
                     .ToList();
         }
  
+        /// <summary>
+        /// Повертає назву обраного в поточний момент міста (або null, якщо обрано "Усі міста").
+        /// </summary>
         private string? GetSelectedCity()
         {
             string city = _cboCityFilter.SelectedItem?.ToString() ?? "Усі міста";
             return city == "Усі міста" ? null : city;
         }
  
- 
+
+        /// <summary>
+        /// Оновлює вміст графічного компонента ListBox списком переданих ЗВО.
+        /// </summary>
         private void PopulateUniversityList(List<University> universities)
         {
             _suppressListBoxEvent = true;
@@ -542,7 +598,9 @@ namespace ApplicantsGuide.Forms
             }
         }
  
-       
+       /// <summary>
+        /// Виводить у таблицю DataGridView повний список спеціальностей конкретного закладу вищої освіти.
+        /// </summary>
         private void DisplayUniversitySpecialties(University university)
         {
             _gridSpecialties.Columns["ColUniName"]!.Visible = false;
@@ -570,6 +628,9 @@ namespace ApplicantsGuide.Forms
             SetStatus($"{university.Name} — {university.Specialties.Count} рядків.");
         }
  
+        /// <summary>
+        /// Заповнює таблицю DataGridView зведеними результатами багатокритеріального аналітичного пошуку.
+        /// </summary>
         private void DisplaySearchResults(
             List<(University University, Specialty Specialty)> results)
         {
@@ -599,7 +660,9 @@ namespace ApplicantsGuide.Forms
         }
  
        
- 
+        /// <summary>
+        /// Обробляє зміну обраного міста у фільтрі для миттєвого оновлення дерева ЗВО.
+        /// </summary>
         private void CboCityFilter_SelectedIndexChanged(object? sender, EventArgs e)
         {
             if (_suppressListBoxEvent) return;
@@ -611,6 +674,9 @@ namespace ApplicantsGuide.Forms
                 : $"Місто «{city}» — {filtered.Count} ВНЗ.");
         }
  
+        /// <summary>
+        /// Обробляє клік по університету у списку: завантажує таблицю та регулює доступ адмін-кнопок.
+        /// </summary>
         private void ListBoxUniversities_SelectedIndexChanged(object? sender, EventArgs e)
         {
             if (_suppressListBoxEvent) return;
@@ -624,12 +690,16 @@ namespace ApplicantsGuide.Forms
  
             DisplayUniversitySpecialties(uni);
  
+            // Розрахунок безпеки доступу: кнопки активні тільки якщо адмін дивіться свій власний університет
             bool isOwnUni = _db.IsAdminLoggedIn && _db.CurrentSession?.Id == uni.Id;
             _btnAddSpecialty.Enabled = isOwnUni;
             _btnEditPrice.Enabled    = isOwnUni;
             _btnDeleteRow.Enabled    = isOwnUni;
         }
  
+        /// <summary>
+        /// Обробляє зміну критерію пошуку, динамічно вмикаючи або вимикаючи відповідні фільтри.
+        /// </summary
         private void CboCriteria_SelectedIndexChanged(object? sender, EventArgs e)
         {
             int c = _cboCriteria.SelectedIndex;
@@ -638,7 +708,10 @@ namespace ApplicantsGuide.Forms
             _cboFunding.Enabled        = c == 2;
             if (!_txtSpecialtyQuery.Enabled) _txtSpecialtyQuery.Clear();
         }
- 
+        
+        /// <summary>
+        /// Точка маршрутизації події пошуку відповідно до обраного користувачем індексу критерію.
+        /// </summary>
         private void BtnSearch_Click(object? sender, EventArgs e)
         {
             switch (_cboCriteria.SelectedIndex)
@@ -649,6 +722,9 @@ namespace ApplicantsGuide.Forms
             }
         }
  
+        /// <summary>
+        /// Скидає всі елементи панелі аналітичного пошуку та текстові фільтри до початкових значень.
+        /// </summary>
         private void BtnReset_Click(object? sender, EventArgs e)
         {
             if (_cboCriteria.Items.Count  > 0) _cboCriteria.SelectedIndex  = 0;
@@ -659,7 +735,9 @@ namespace ApplicantsGuide.Forms
             SetStatus("Пошук скинуто.");
         }
  
- 
+        /// <summary>
+        /// Виконує пошук за критерієм 1: виводить картку та загальні відомості про обраний університет.
+        /// </summary>
         private void ExecuteCriterion1()
         {
             string? name = _listBoxUniversities.SelectedItem?.ToString();
@@ -682,6 +760,9 @@ namespace ApplicantsGuide.Forms
                 "Картка закладу", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
  
+        /// <summary>
+        /// Виконує пошук за критерієм 2: знаходить обрану спеціальність (за кодом або фрагментом назви).
+        /// </summary>
         private void ExecuteCriterion2()
         {
             string query = _txtSpecialtyQuery.Text.Trim();
@@ -702,6 +783,9 @@ namespace ApplicantsGuide.Forms
             DisplaySearchResults(results);
         }
  
+        /// <summary>
+        /// Виконує пошук за критерієм 3: знаходить заклад із мінімальним прохідним конкурсом (балом) НМТ.
+        /// </summary>
         private void ExecuteCriterion3()
         {
             string query      = _txtSpecialtyQuery.Text.Trim();
@@ -746,7 +830,9 @@ namespace ApplicantsGuide.Forms
             SetStatus($"Мінімум: {uni.Name} — {score:F2} ({studyForm}, {funding}, {spec.Code}).");
         }
  
- 
+        /// <summary>
+        /// Керує логікою кліку по кнопці кабінету: відкриває форму авторизації або ініціює вихід із сесії.
+        /// </summary>
         private void MenuAdminLogin_Click(object? sender, EventArgs e)
         {
             if (_db.IsAdminLoggedIn)
@@ -766,6 +852,9 @@ namespace ApplicantsGuide.Forms
                 ActivateAdminSession();
         }
  
+        /// <summary>
+        /// Перемикає графічний інтерфейс програми в режим модератора, розгортаючи нижню адмін-панель.
+        /// </summary>
         private void ActivateAdminSession()
         {
             var session = _db.CurrentSession!;
@@ -788,8 +877,14 @@ namespace ApplicantsGuide.Forms
             SetStatus($"Авторизовано: {session.Name}. Доступне редагування своїх спеціальностей.");
         }
  
+        /// <summary>
+        /// Обробляє клік представника ЗВО на кнопку виходу з адмін-панелі.
+        /// </summary>
         private void BtnAdminLogout_Click(object? sender, EventArgs e) => LogoutAdmin();
  
+        /// <summary>
+        /// Згортає панель адміністрування та повертає додаток у безпечний режим перегляду абітурієнта.
+        /// </summary>
         private void LogoutAdmin()
         {
             _db.Logout();
@@ -805,6 +900,9 @@ namespace ApplicantsGuide.Forms
             SetStatus("Сесію завершено. Режим: абітурієнт.");
         }
  
+        /// <summary>
+        /// Відкриває діалогове вікно додавання та вносить новий рядок спеціальності у JSON-базу.
+        /// </summary>
         private void BtnAddSpecialty_Click(object? sender, EventArgs e)
         {
             if (!CheckAdminOnOwnUni()) return;
@@ -824,6 +922,9 @@ namespace ApplicantsGuide.Forms
             SetStatus("Рядок спеціальності додано і збережено.");
         }
  
+        /// <summary>
+        /// Обробляє зміну ціни контракту для виділеного рядка спеціальності з валідацією прав доступу.
+        /// </summary>
         private void BtnEditPrice_Click(object? sender, EventArgs e)
         {
             if (!CheckAdminOnOwnUni()) return;
@@ -855,6 +956,9 @@ namespace ApplicantsGuide.Forms
             SetStatus($"Вартість оновлено: {newPrice:N0} грн.");
         }
  
+        /// <summary>
+        /// Видаляє виділений рядок спеціальності з колекції ЗВО після незворотного підтвердження користувачем.
+        /// </summary>
         private void BtnDeleteRow_Click(object? sender, EventArgs e)
         {
             if (!CheckAdminOnOwnUni()) return;
@@ -924,7 +1028,9 @@ namespace ApplicantsGuide.Forms
             if (uni != null) DisplayUniversitySpecialties(uni);
         }
  
- 
+        /// <summary>
+        /// Відображає системне модальне вікно відомостей про розробників та технологічний стек проєкту.
+        /// </summary>
         private void ShowAboutDialog(object? sender, EventArgs e)
         {
             MessageBox.Show(

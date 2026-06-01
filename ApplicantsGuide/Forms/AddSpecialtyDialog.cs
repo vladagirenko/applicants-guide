@@ -5,6 +5,11 @@ using ApplicantsGuide.Models;
 
 namespace ApplicantsGuide.Forms
 {
+
+    /// <summary>
+    /// Модальне діалогове вікно для введення даних нової спеціальності.
+    /// Використовується представниками ЗВО в режимі адміністратора додатка.
+    /// </summary>
     public class AddSpecialtyDialog : Form
     {
         private TextBox _txtCode = null!;
@@ -17,8 +22,14 @@ namespace ApplicantsGuide.Forms
         private Button _btnSave = null!;
         private Button _btnCancel = null!;
 
+        /// <summary>
+        /// Об'єкт створеної спеціальності, доступний після успішного закриття форми.
+        /// </summary>
         public Specialty? CreatedSpecialty { get; private set; }
 
+        /// <summary>
+        /// Ініціалізує новий екземпляр класу <see cref="AddSpecialtyDialog"/>.
+        /// </summary>
         public AddSpecialtyDialog()
         {
             InitFormParameters();
@@ -41,6 +52,8 @@ namespace ApplicantsGuide.Forms
 
         private void BuildUI()
         {
+            
+            // Основна таблиця (займає весь простір, що залишився над кнопками)
             var tbl = new TableLayoutPanel
             {
                 Dock = DockStyle.Fill,
@@ -57,6 +70,7 @@ namespace ApplicantsGuide.Forms
                 tbl.RowStyles.Add(new RowStyle(SizeType.Absolute, 36f));
             tbl.RowStyles.Add(new RowStyle(SizeType.Percent, 100f));
 
+            // Заповнюємо полями
             tbl.Controls.Add(MakeLabel("Код спеціальності:"), 0, 0);
             _txtCode = new TextBox { Dock = DockStyle.Fill, PlaceholderText = "наприклад: 121" };
             tbl.Controls.Add(_txtCode, 1, 0);
@@ -105,6 +119,7 @@ namespace ApplicantsGuide.Forms
             btnPanel.Controls.Add(_btnCancel);
             btnPanel.Controls.Add(_btnSave);
 
+            // Додаємо елементи на форму в правильному порядку контейнеризації
             Controls.Add(tbl);
             Controls.Add(btnPanel);
             AcceptButton = _btnSave;

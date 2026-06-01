@@ -6,6 +6,10 @@ using ApplicantsGuide.Services;
 namespace ApplicantsGuide.Forms
 {
     
+    /// <summary>
+    /// Форма авторизації представника закладу вищої освіти (ЗВО).
+    /// Забезпечує автентифікацію для переходу програми в режим адміністратора.
+    /// </summary>
     public class AdminLoginForm : Form
     {
        
@@ -19,7 +23,9 @@ namespace ApplicantsGuide.Forms
         private Label   _lblError    = null!;
 
         
-
+        /// <summary>
+        /// Ініціалізує новий екземпляр класу <see cref="AdminLoginForm"/> із посиланням на менеджер бази даних.
+        /// </summary>
         public AdminLoginForm(DatabaseManager db)
         {
             _db = db;
@@ -28,6 +34,9 @@ namespace ApplicantsGuide.Forms
         }
 
 
+        /// <summary>
+        /// Встановлює початкові графічні та системні параметри вікна діалогу авторизації.
+        /// </summary>
         private void InitFormParameters()
         {
             Text            = "Вхід для представника ЗВО";
@@ -43,6 +52,9 @@ namespace ApplicantsGuide.Forms
         }
 
 
+        /// <summary>
+        /// Створює елементи керування графічного інтерфейсу користувача та розміщує їх у формі.
+        /// </summary>
         private void BuildUI()
         {
             var lblTitle = new Label
@@ -161,6 +173,9 @@ namespace ApplicantsGuide.Forms
             AcceptButton = _btnLogin;
         }
 
+        /// <summary>
+        /// Обробляє подію натискання кнопки автентифікації. Перевіряє коректність заповнення полів та викликає метод валідації бази даних.
+        /// </summary>
         private void BtnLogin_Click(object? sender, EventArgs e)
         {
             string login    = _txtLogin.Text.Trim();
@@ -187,6 +202,9 @@ namespace ApplicantsGuide.Forms
             }
         }
 
+        /// <summary>
+        /// Обробляє подію натискання клавіш у текстових полях введення даних для автоматичного сабміту форми за натисканням Enter.
+        /// </summary>
         private void OnEnterPressed(object? sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -197,7 +215,9 @@ namespace ApplicantsGuide.Forms
         }
 
         
-
+        /// <summary>
+        /// Фабричний метод для створення текстових міток інтерфейсу зі спільними графічними параметрами.
+        /// </summary>
         private static Label MakeLabel(string text) => new Label
         {
             Text      = text,

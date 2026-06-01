@@ -10,6 +10,10 @@ using ApplicantsGuide.Models;
 
 namespace ApplicantsGuide.Services
 {
+
+    /// <summary>
+    /// Менеджер бази даних проєкту. Забезпечує збереження, завантаження, пошук та редагування інформації про ЗВО та їхні спеціальності.
+    /// </summary>
     public class DatabaseManager
     {
 
@@ -31,10 +35,19 @@ namespace ApplicantsGuide.Services
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
         };
 
+        /// <summary>
+        /// Поточна активна сесія авторизованого університету (null, якщо користувач — абітурієнт).
+        /// </summary>
         public University? CurrentSession { get; private set; } = null;
 
+        /// <summary>
+        /// Повертає значення, яке вказує, чи авторизовано представника ЗВО в системі.
+        /// </summary>
          public bool IsAdminLoggedIn => CurrentSession != null;
 
+        /// <summary>
+        /// Ініціалізує новий екземпляр класу <see cref="DatabaseManager"/> та завантажує дані.
+        /// </summary>
         public DatabaseManager(string? filePath = null)
         {
             _filePath = filePath ?? Path.Combine(AppContext.BaseDirectory, "universities.json");
@@ -42,8 +55,14 @@ namespace ApplicantsGuide.Services
             LoadOrSeedDatabase();
         }
 
+        /// <summary>
+        /// Список усіх університетів, доступний лише для читання з метою захисту цілісності колекції.
+        /// </summary>
         public IReadOnlyList<University> Universities => _universities.AsReadOnly();
 
+        /// <summary>
+        /// Виконує спробу автентифікації представника ЗВО за логіном та паролем.
+        /// </summary>
          public bool TryLogin(string login, string password)
         {
             if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
@@ -60,11 +79,17 @@ namespace ApplicantsGuide.Services
             return true;
         }
 
+        /// <summary>
+        /// Завершує поточну адміністративну сесію ЗВО.
+        /// </summary>
         public void Logout()
         {
             CurrentSession = null;
         }
 
+        /// <summary>
+        /// Виконує пошук конкретного університету за його назвою або її фрагментом.
+        /// </summary>
         public University? FindUniversityByName(string query)
         {
             if (string.IsNullOrWhiteSpace(query)) return null;
@@ -72,6 +97,9 @@ namespace ApplicantsGuide.Services
                 u.Name.Contains(query.Trim(), StringComparison.OrdinalIgnoreCase));
         }
 
+        /// <summary>
+        /// Здійснює аналітичний пошук спеціальностей за кодом/назвою та встановленими фільтрами.
+        /// </summary>
         public List<(University University, Specialty Specialty)> FindSpecialties(
             string query,
             string? form    = null,
@@ -106,7 +134,9 @@ namespace ApplicantsGuide.Services
             return results;
         }
  
-       
+        /// <summary>
+        /// Знаходить спеціальність із мінімальним прохідним балом серед тих, що відповідають критеріям.
+        /// </summary>
         public (University University, Specialty Specialty, double Score)?
             FindMinimumScore(
                 string query,
@@ -124,7 +154,9 @@ namespace ApplicantsGuide.Services
             return (best.University, best.Specialty, best.Specialty.MinScore);
         }
  
-        
+        /// <summary>
+        /// Додає нову спеціальність до колекції обраного ЗВО з верифікацією прав доступу.
+        /// </summary>
         public bool AddSpecialty(string universityId, Specialty specialty)
         {
             var uni = GetOwnUniversity(universityId);
@@ -135,6 +167,9 @@ namespace ApplicantsGuide.Services
             return true;
         }
  
+        /// <summary>
+        /// Видаляє спеціальність за індексом з колекції обраного ЗВО.
+        /// </summary>
         public bool RemoveSpecialty(string universityId, int specialtyIndex)
         {
             var uni = GetOwnUniversity(universityId);
@@ -147,6 +182,9 @@ namespace ApplicantsGuide.Services
             return true;
         }
  
+        /// <summary>
+        /// Оновлює вартість навчання для вказаної спеціальності ЗВО.
+        /// </summary>
         public bool UpdatePrice(string universityId, int specialtyIndex, decimal newPrice)
         {
             var uni = GetOwnUniversity(universityId);
@@ -160,6 +198,9 @@ namespace ApplicantsGuide.Services
             return true;
         }
  
+        /// <summary>
+        /// Оновлює мінімальний прохідний балл для вказаної спеціальності ЗВО.
+        /// </summary>
         public bool UpdateMinScore(string universityId, int specialtyIndex, double newScore)
         {
             var uni = GetOwnUniversity(universityId);
@@ -173,7 +214,9 @@ namespace ApplicantsGuide.Services
             return true;
         }
  
-        
+        /// <summary>
+        /// Примусово зберігає всі незбережені зміни поточної сесії адміністратора до сховища.
+        /// </summary>
         public bool SaveChanges()
         {
             if (!IsAdminLoggedIn) return false;
@@ -193,7 +236,9 @@ namespace ApplicantsGuide.Services
             return _universities.FirstOrDefault(u => u.Id == universityId);
         }
  
-        
+        /// <summary>
+        /// Допоміжний метод парсингу рядка адреси для відокремлення назви міста.
+        /// </summary>
         public static string ExtractCity(string address)
         {
             int idx = address.IndexOf("м. ", StringComparison.Ordinal);
@@ -208,6 +253,7 @@ namespace ApplicantsGuide.Services
         {
             if (File.Exists(_filePath))
             {
+                // try-catch захищає додаток від критичного падіння у випадку пошкодження файлу JSON
                 try
                 {
                     using var fs = new FileStream(
@@ -239,7 +285,7 @@ namespace ApplicantsGuide.Services
                 if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir))
                     Directory.CreateDirectory(dir);
  
-                
+                // Транзакційний метод збереження через тимчасовий файл .tmp захищає базу від затирання та руйнування структури при раптовому вимкненні чи збої програми.
                 string tmpPath = _filePath + ".tmp";
  
                 using (var fs = new FileStream(
