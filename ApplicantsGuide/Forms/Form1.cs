@@ -157,16 +157,25 @@ namespace ApplicantsGuide.Forms
                 BackColor = Color.FromArgb(230, 238, 252),
                 Padding   = new Padding(6, 4, 6, 4)
             };
-            filterPanel.Controls.Add(new Label
+            var filterLayout = new TableLayoutPanel
+            {
+                Dock = DockStyle.Fill,
+                RowCount = 1,
+                ColumnCount = 2,
+                BackColor = Color.Transparent
+            };
+            filterLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50f)); // Фіксована ширина для слова "Місто:"
+            filterLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100f)); // Комбобокс забере весь залишок папки
+
+            var lblCity = new Label
             {
                 Text      = "Місто:",
-                AutoSize  = false,
-                Width     = 45,
-                Dock      = DockStyle.Left,
+                Dock      = DockStyle.Fill,
                 TextAlign = ContentAlignment.MiddleLeft,
                 Font      = new Font("Segoe UI", 9f),
                 ForeColor = Color.FromArgb(60, 70, 90)
-            });
+            };
+
             _cboCityFilter = new ComboBox
             {
                 Dock          = DockStyle.Fill,
@@ -174,8 +183,11 @@ namespace ApplicantsGuide.Forms
                 Font          = new Font("Segoe UI", 9f)
             };
             _cboCityFilter.SelectedIndexChanged += CboCityFilter_SelectedIndexChanged;
-            filterPanel.Controls.Add(_cboCityFilter);
- 
+
+            filterLayout.Controls.Add(lblCity, 0, 0);
+            filterLayout.Controls.Add(_cboCityFilter, 1, 0);
+            filterPanel.Controls.Add(filterLayout);
+
             _listBoxUniversities = new ListBox
             {
                 Dock                = DockStyle.Fill,
@@ -370,7 +382,7 @@ namespace ApplicantsGuide.Forms
                 Text      = string.Empty,
                 Dock      = DockStyle.Left,
                 AutoSize  = false,
-                Width     = 320,
+                Width     = 220,
                 Font      = new Font("Segoe UI", 9.5f, FontStyle.Bold),
                 ForeColor = Color.FromArgb(20, 70, 140),
                 TextAlign = ContentAlignment.MiddleLeft
@@ -963,15 +975,15 @@ namespace ApplicantsGuide.Forms
             var btn = new Button
             {
                 Text      = text,
-                Font      = new Font("Segoe UI", 9f, FontStyle.Bold),
-                Size      = new Size(160, 30),
+                Font      = new Font("Segoe UI", 8.5f, FontStyle.Bold),
+                Size      = new Size(135, 28),
                 BackColor = danger
                     ? Color.FromArgb(180, 50, 50)
                     : Color.FromArgb(40, 110, 190),
                 ForeColor = Color.White,
                 FlatStyle = FlatStyle.Flat,
                 Cursor    = Cursors.Hand,
-                Margin    = new Padding(0, 0, 8, 0)
+                Margin    = new Padding(0, 0, 4, 0)
             };
             btn.FlatAppearance.BorderSize = 0;
             return btn;
