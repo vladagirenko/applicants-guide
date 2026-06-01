@@ -12,6 +12,12 @@ namespace ApplicantsGuide.Services
 {
     public class DatabaseManager
     {
+
+        public const string FormFullTime = "Денна";
+        public const string FormPartTime = "Заочна";
+        public const string FinanceBudget   = "Бюджет";
+        public const string FinanceContract = "Контракт";
+
         private readonly string _filePath;
         private List<University> _universities;
 
@@ -25,6 +31,10 @@ namespace ApplicantsGuide.Services
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
         };
 
+        public University? CurrentSession { get; private set; } = null;
+
+         public bool IsAdminLoggedIn => CurrentSession != null;
+
         public DatabaseManager(string? filePath = null)
         {
             _filePath = filePath ?? Path.Combine(AppContext.BaseDirectory, "universities.json");
@@ -34,63 +44,166 @@ namespace ApplicantsGuide.Services
 
         public IReadOnlyList<University> Universities => _universities.AsReadOnly();
 
-        public University? FindUniversityByName(string universityName)
+         public bool TryLogin(string login, string password)
         {
-            if (string.IsNullOrWhiteSpace(universityName)) return null;
-            return _universities.FirstOrDefault(u =>
-                u.Name.Contains(universityName.Trim(), StringComparison.OrdinalIgnoreCase));
+            if (string.IsNullOrWhiteSpace(login) || string.IsNullOrWhiteSpace(password))
+                return false;
+ 
+            var university = _universities.FirstOrDefault(u =>
+                u.Login    == login.Trim() &&
+                u.Password == password.Trim());
+ 
+            if (university is null)
+                return false;
+ 
+            CurrentSession = university;
+            return true;
         }
 
-        public List<(University University, Specialty Specialty)> FindSpecialtiesByName(string specialtyQuery)
+        public void Logout()
+        {
+            CurrentSession = null;
+        }
+
+        public University? FindUniversityByName(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query)) return null;
+            return _universities.FirstOrDefault(u =>
+                u.Name.Contains(query.Trim(), StringComparison.OrdinalIgnoreCase));
+        }
+
+        public List<(University University, Specialty Specialty)> FindSpecialties(
+            string query,
+            string? form    = null,
+            string? finance = null,
+            string? city    = null)
         {
             var results = new List<(University, Specialty)>();
-            if (string.IsNullOrWhiteSpace(specialtyQuery)) return results;
-
-            string query = specialtyQuery.Trim();
-            foreach (var university in _universities)
-                foreach (var specialty in university.Specialties)
-                    if (specialty.Name.Contains(query, StringComparison.OrdinalIgnoreCase))
-                        results.Add((university, specialty));
-
-            return results;
-        }
-
-        public (University University, Specialty Specialty, double Score)? FindMinimumScore(
-            string specialtyQuery,
-            string studyForm,
-            string fundingType)
-        {
-            if (string.IsNullOrWhiteSpace(specialtyQuery)) return null;
-
-            string query = specialtyQuery.Trim();
-            var candidates = new List<(University University, Specialty Specialty, double Score)>();
-
-            foreach (var university in _universities)
+            if (string.IsNullOrWhiteSpace(query)) return results;
+ 
+            string q = query.Trim();
+ 
+            foreach (var uni in _universities)
             {
-                foreach (var specialty in university.Specialties)
+                if (city != null && ExtractCity(uni.Address) != city)
+                    continue;
+ 
+                foreach (var spec in uni.Specialties)
                 {
-                    if (!specialty.Name.Contains(query, StringComparison.OrdinalIgnoreCase))
-                        continue;
-
-                    double score = (studyForm, fundingType) switch
-                    {
-                        ("Денна", "Бюджет") => specialty.FullTimeBudgetScore,
-                        ("Денна", "Контракт") => specialty.FullTimeContractScore,
-                        ("Заочна", "Бюджет") => specialty.PartTimeBudgetScore,
-                        ("Заочна", "Контракт") => specialty.PartTimeContractScore,
-                        _ => 0.0
-                    };
-
-                    if (score > 0)
-                        candidates.Add((university, specialty, score));
+                    bool nameMatch =
+                        spec.Code.Contains(q, StringComparison.OrdinalIgnoreCase) ||
+                        spec.Name.Contains(q, StringComparison.OrdinalIgnoreCase);
+ 
+                    if (!nameMatch) continue;
+ 
+                    if (form    != null && spec.Form    != form)    continue;
+                    if (finance != null && spec.Finance != finance)  continue;
+ 
+                    results.Add((uni, spec));
                 }
             }
-
-            if (candidates.Count == 0) return null;
-
-            return candidates.MinBy(c => c.Score);
+ 
+            return results;
         }
-
+ 
+       
+        public (University University, Specialty Specialty, double Score)?
+            FindMinimumScore(
+                string query,
+                string form,
+                string finance,
+                string? city = null)
+        {
+            var candidates = FindSpecialties(query, form, finance, city);
+            if (candidates.Count == 0) return null;
+ 
+            var valid = candidates.Where(c => c.Specialty.MinScore > 0).ToList();
+            if (valid.Count == 0) return null;
+ 
+            var best = valid.MinBy(c => c.Specialty.MinScore);
+            return (best.University, best.Specialty, best.Specialty.MinScore);
+        }
+ 
+        
+        public bool AddSpecialty(string universityId, Specialty specialty)
+        {
+            var uni = GetOwnUniversity(universityId);
+            if (uni is null) return false;
+ 
+            uni.Specialties.Add(specialty);
+            SaveDatabase();
+            return true;
+        }
+ 
+        public bool RemoveSpecialty(string universityId, int specialtyIndex)
+        {
+            var uni = GetOwnUniversity(universityId);
+            if (uni is null) return false;
+            if (specialtyIndex < 0 || specialtyIndex >= uni.Specialties.Count)
+                return false;
+ 
+            uni.Specialties.RemoveAt(specialtyIndex);
+            SaveDatabase();
+            return true;
+        }
+ 
+        public bool UpdatePrice(string universityId, int specialtyIndex, decimal newPrice)
+        {
+            var uni = GetOwnUniversity(universityId);
+            if (uni is null) return false;
+            if (specialtyIndex < 0 || specialtyIndex >= uni.Specialties.Count)
+                return false;
+            if (newPrice < 0) return false;
+ 
+            uni.Specialties[specialtyIndex].Price = newPrice;
+            SaveDatabase();
+            return true;
+        }
+ 
+        public bool UpdateMinScore(string universityId, int specialtyIndex, double newScore)
+        {
+            var uni = GetOwnUniversity(universityId);
+            if (uni is null) return false;
+            if (specialtyIndex < 0 || specialtyIndex >= uni.Specialties.Count)
+                return false;
+            if (newScore < 0) return false;
+ 
+            uni.Specialties[specialtyIndex].MinScore = newScore;
+            SaveDatabase();
+            return true;
+        }
+ 
+        
+        public bool SaveChanges()
+        {
+            if (!IsAdminLoggedIn) return false;
+            SaveDatabase();
+            return true;
+        }
+ 
+        
+        private University? GetOwnUniversity(string universityId)
+        {
+            if (CurrentSession is null) return null;
+ 
+            
+            if (CurrentSession.Id != universityId) return null;
+ 
+            
+            return _universities.FirstOrDefault(u => u.Id == universityId);
+        }
+ 
+        
+        public static string ExtractCity(string address)
+        {
+            int idx = address.IndexOf("м. ", StringComparison.Ordinal);
+            if (idx < 0) return "Інше";
+            string rest  = address.Substring(idx + 3).Trim();
+            int    comma = rest.IndexOf(',');
+            return comma >= 0 ? rest.Substring(0, comma).Trim() : rest;
+        }
+ 
+       
         private void LoadOrSeedDatabase()
         {
             if (File.Exists(_filePath))
@@ -98,8 +211,10 @@ namespace ApplicantsGuide.Services
                 try
                 {
                     using var fs = new FileStream(
-                        _filePath, FileMode.Open, FileAccess.Read, FileShare.Read, 65536, false);
-
+                        _filePath,
+                        FileMode.Open, FileAccess.Read, FileShare.Read,
+                        bufferSize: 65536, useAsync: false);
+ 
                     var loaded = JsonSerializer.Deserialize<List<University>>(fs, _jsonOptions);
                     if (loaded != null && loaded.Count > 0)
                     {
@@ -108,13 +223,14 @@ namespace ApplicantsGuide.Services
                     }
                 }
                 catch (JsonException) { }
-                catch (IOException) { }
+                catch (IOException)   { }
             }
-
+ 
             _universities = CreateSeedData();
             SaveDatabase();
         }
-
+ 
+        
         private void SaveDatabase()
         {
             try
@@ -122,56 +238,62 @@ namespace ApplicantsGuide.Services
                 string? dir = Path.GetDirectoryName(_filePath);
                 if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir))
                     Directory.CreateDirectory(dir);
-
-                using var fs = new FileStream(
-                    _filePath, FileMode.Create, FileAccess.Write, FileShare.None, 65536, false);
-
-                JsonSerializer.Serialize(fs, _universities, _jsonOptions);
+ 
+                
+                string tmpPath = _filePath + ".tmp";
+ 
+                using (var fs = new FileStream(
+                    tmpPath,
+                    FileMode.Create, FileAccess.Write, FileShare.None,
+                    bufferSize: 65536, useAsync: false))
+                {
+                    JsonSerializer.Serialize(fs, _universities, _jsonOptions);
+                }
+ 
+                
+                File.Move(tmpPath, _filePath, overwrite: true);
             }
             catch (IOException) { }
         }
-
+ 
+       
         private static List<University> CreateSeedData()
         {
             return new List<University>
             {
                 new University(
-                    "ХНУРЕ — Харківський національний університет радіоелектроніки",
-                    "просп. Науки, 14, м. Харків, 61166",
-                    new List<Specialty>
+                    id:       "nure",
+                    login:    "nure_admin",
+                    password: "nure2026",
+                    name:     "ХНУРЕ — Харківський національний університет радіоелектроніки",
+                    address:  "просп. Науки, 14, м. Харків, 61166",
+                    specialties: new List<Specialty>
                     {
-                        new Specialty("121 Інженерія програмного забезпечення", 172.5, 158.0, 155.0, 140.0, 38500),
-                        new Specialty("122 Комп'ютерні науки",                  168.0, 154.0, 151.0, 136.0, 37000),
-                        new Specialty("123 Комп'ютерна інженерія",              165.5, 151.5, 148.0, 133.0, 36000),
-                        new Specialty("124 Системний аналіз",                   162.0, 148.5, 145.0, 130.0, 35000),
-                        new Specialty("125 Кібербезпека",                       170.0, 156.0, 153.0, 138.0, 40000),
-                        new Specialty("126 Інформаційні системи та технології", 160.0, 147.0, 143.0, 128.0, 34500),
+                        new Specialty("121", "Інженерія програмного забезпечення", FormFullTime, FinanceBudget,   163.04, 34900, 120),
+                        new Specialty("121", "Інженерія програмного забезпечення", FormFullTime, FinanceContract, 142.07, 34900, 180),
+                        new Specialty("121", "Інженерія програмного забезпечення", FormPartTime, FinanceBudget,   160.33, 34900,  30),
+                        new Specialty("121", "Інженерія програмного забезпечення", FormPartTime, FinanceContract, 137.78, 34900,  50),
+                        new Specialty("122", "Комп'ютерні науки",                  FormFullTime, FinanceBudget,   160.30, 34900, 150),
+                        new Specialty("122", "Комп'ютерні науки",                  FormFullTime, FinanceContract, 138.31, 34900, 200),
+                        new Specialty("125", "Кібербезпека та захист інформації",  FormFullTime, FinanceBudget,   161.00, 34900, 100),
+                        new Specialty("125", "Кібербезпека та захист інформації",  FormFullTime, FinanceContract, 141.94, 34900, 130),
                     }),
-
+ 
                 new University(
-                    "НТУ «ХПІ» — Національний технічний університет «Харківський політехнічний інститут»",
-                    "вул. Кирпичова, 2, м. Харків, 61002",
-                    new List<Specialty>
+                    id:       "kpi",
+                    login:    "kpi_admin",
+                    password: "kpi2026",
+                    name:     "КПІ ім. Ігоря Сікорського — Київський політехнічний інститут",
+                    address:  "просп. Берестейський, 37, м. Київ, 03056",
+                    specialties: new List<Specialty>
                     {
-                        new Specialty("121 Інженерія програмного забезпечення", 169.0, 155.0, 152.0, 137.0, 36500),
-                        new Specialty("122 Комп'ютерні науки",                  165.0, 152.0, 148.5, 133.5, 35500),
-                        new Specialty("123 Комп'ютерна інженерія",              163.0, 150.0, 146.0, 131.0, 35000),
-                        new Specialty("124 Системний аналіз",                   159.5, 146.0, 142.0, 127.5, 33500),
-                        new Specialty("125 Кібербезпека",                       167.5, 153.5, 150.0, 135.0, 38500),
-                        new Specialty("126 Інформаційні системи та технології", 158.0, 145.0, 141.0, 126.5, 33000),
-                    }),
-
-                new University(
-                    "КНУ ім. Тараса Шевченка — Київський національний університет імені Тараса Шевченка",
-                    "вул. Володимирська, 60, м. Київ, 01601",
-                    new List<Specialty>
-                    {
-                        new Specialty("121 Інженерія програмного забезпечення", 180.0, 165.0, 162.0, 147.0, 48000),
-                        new Specialty("122 Комп'ютерні науки",                  177.5, 162.5, 159.0, 144.0, 46500),
-                        new Specialty("123 Комп'ютерна інженерія",              174.0, 159.0, 156.0, 141.0, 45000),
-                        new Specialty("124 Системний аналіз",                   171.0, 157.0, 153.0, 138.0, 44000),
-                        new Specialty("125 Кібербезпека",                       178.5, 164.0, 160.5, 145.5, 49500),
-                        new Specialty("126 Інформаційні системи та технології", 169.5, 155.5, 151.5, 136.5, 43000),
+                        new Specialty("121", "Інженерія програмного забезпечення", FormFullTime, FinanceBudget,   168.19, 38000, 150),
+                        new Specialty("121", "Інженерія програмного забезпечення", FormFullTime, FinanceContract, 151.47, 38000, 200),
+                        new Specialty("121", "Інженерія програмного забезпечення", FormPartTime, FinanceContract, 148.47, 38000,  50),
+                        new Specialty("122", "Комп'ютерні науки",                  FormFullTime, FinanceBudget,   164.19, 35000, 180),
+                        new Specialty("122", "Комп'ютерні науки",                  FormFullTime, FinanceContract, 148.47, 35000, 250),
+                        new Specialty("131", "Прикладна механіка",                 FormFullTime, FinanceBudget,   150.19, 22000,  90),
+                        new Specialty("131", "Прикладна механіка",                 FormFullTime, FinanceContract, 141.47, 22000, 120),
                     }),
             };
         }

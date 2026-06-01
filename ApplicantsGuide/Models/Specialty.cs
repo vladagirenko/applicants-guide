@@ -7,53 +7,66 @@ namespace ApplicantsGuide.Models
     /// </summary>
     public class Specialty
     {
+        public string Code { get; set; }
         
         public string Name { get; set; }
 
-        
-        public double FullTimeBudgetScore { get; set; }
+        public string Form { get; set; }
+
+        public string Finance { get; set; }
+
+        public double MinScore { get; set; }
 
         
-        public double FullTimeContractScore { get; set; }
+        public decimal Price { get; set; }
 
         
-        public double PartTimeBudgetScore { get; set; }
-
+        public int LicensedPlaces { get; set; }
         
-        public double PartTimeContractScore { get; set; }
-
-        
-        public decimal ContractCost { get; set; }
-
+       
        
         public Specialty()
         {
-            Name = string.Empty;
+            Code    = string.Empty;
+            Name    = string.Empty;
+            Form    = string.Empty;
+            Finance = string.Empty;
         }
 
         
         public Specialty(
+            string code,
             string name,
-            double fullTimeBudgetScore,
-            double fullTimeContractScore,
-            double partTimeBudgetScore,
-            double partTimeContractScore,
-            decimal contractCost)
+            string form,
+            string finance,
+            double minScore,
+            decimal price,
+            int licensedPlaces)
         {
+            if (string.IsNullOrWhiteSpace(code))
+                throw new ArgumentException("Код спеціальності не може бути порожнім.", nameof(code));
             if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Назва спеціальності не може бути порожньою.", nameof(name));
-            if (fullTimeBudgetScore    < 0) throw new ArgumentOutOfRangeException(nameof(fullTimeBudgetScore));
-            if (fullTimeContractScore  < 0) throw new ArgumentOutOfRangeException(nameof(fullTimeContractScore));
-            if (partTimeBudgetScore    < 0) throw new ArgumentOutOfRangeException(nameof(partTimeBudgetScore));
-            if (partTimeContractScore  < 0) throw new ArgumentOutOfRangeException(nameof(partTimeContractScore));
-            if (contractCost           < 0) throw new ArgumentOutOfRangeException(nameof(contractCost));
+            if (form != "Денна" && form != "Заочна")
+                throw new ArgumentException("Форма навчання має бути «Денна» або «Заочна».", nameof(form));
+            if (finance != "Бюджет" && finance != "Контракт")
+                throw new ArgumentException("Фінансування має бути «Бюджет» або «Контракт».", nameof(finance));
+            if (minScore < 0)
+                throw new ArgumentOutOfRangeException(nameof(minScore), "Бал не може бути від'ємним.");
+            if (price < 0)
+                throw new ArgumentOutOfRangeException(nameof(price), "Вартість не може бути від'ємною.");
+            if (licensedPlaces < 0)
+                throw new ArgumentOutOfRangeException(nameof(licensedPlaces), "Кількість місць не може бути від'ємною.");
 
+            Code           = code;
             Name                  = name;
-            FullTimeBudgetScore   = fullTimeBudgetScore;
-            FullTimeContractScore = fullTimeContractScore;
-            PartTimeBudgetScore   = partTimeBudgetScore;
-            PartTimeContractScore = partTimeContractScore;
-            ContractCost          = contractCost;
+            Form           = form;
+            Finance        = finance;
+            MinScore       = minScore;
+            Price          = price;
+            LicensedPlaces = licensedPlaces;
         }
+        public override string ToString() =>
+            $"{Code} {Name} | {Form} | {Finance} | {MinScore:F2} балів | {Price:N0} грн";
     }
 }
