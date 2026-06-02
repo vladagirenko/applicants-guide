@@ -11,8 +11,3 @@
 * .NET 8.0
 * C# 
 * JSON
-
-## Запуск
-```bash
-cd ApplicantsGuide
-dotnet run
