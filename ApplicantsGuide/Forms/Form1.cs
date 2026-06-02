@@ -471,7 +471,7 @@ namespace ApplicantsGuide.Forms
             AddColumn("ColName",     "Спеціальність",      4);
             AddColumn("ColForm",     "Форма",              1, align: DataGridViewContentAlignment.MiddleCenter);
             AddColumn("ColFinance",  "Фінансування",       1, align: DataGridViewContentAlignment.MiddleCenter);
-            AddColumn("ColScore",    "Мін. бал",           1, align: DataGridViewContentAlignment.MiddleCenter);
+            AddColumn("ColScore",    "Сер. бал",           1, align: DataGridViewContentAlignment.MiddleCenter);
             AddColumn("ColPrice",    "Вартість (грн/рік)", 1, align: DataGridViewContentAlignment.MiddleRight);
             AddColumn("ColPlaces",   "Місць",              1, align: DataGridViewContentAlignment.MiddleCenter);
         }
@@ -820,7 +820,7 @@ namespace ApplicantsGuide.Forms
                 $"  📚  Спеціальність:     {spec.Code} {spec.Name}\n\n" +
                 $"  🎓  Форма навчання:    {studyForm}\n\n" +
                 $"  💳  Фінансування:      {funding}\n\n" +
-                $"  📊  Мін. бал НМТ:     {score:F2}\n\n" +
+                $"  📊  Сер. бал НМТ:     {score:F2}\n\n" +
                 $"  💰  Вартість:          {spec.Price:N0} грн / рік\n\n" +
                 $"  🪑  Ліцензованих місць: {spec.LicensedPlaces}\n\n" +
                 $"{sep2}\n  ✅  Найнижчий конкурс серед усіх ВНЗ бази.",
